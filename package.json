@@ -1,0 +1,20 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "Tool to practice DSA",
+  "homepage": "https://github.com/Arvoya/DSA#readme",
+  "bugs": {
+    "url": "https://github.com/Arvoya/DSA/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arvoya/DSA.git"
+  },
+  "license": "ISC",
+  "author": "Isai Chaidez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
