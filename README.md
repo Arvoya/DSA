@@ -10,7 +10,7 @@ Programming Challenges" by Federico Kereki.
 - Write a script to clear the answers but keep the formatted code
 - Take notes as I go through the book
 
-## Index
+## Notes
 
 ### Part 1
 
