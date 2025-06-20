@@ -13,7 +13,7 @@ const echo = () => {...}
 - They don't have an arguments object or a prototype property.
 
 ``` js
-//NOTE: You can initialize a default value incase one isn't provided 
+//NOTE: You can initialize a default value in case one isn't provided 
 
 const test = (s = "oh no") => {
   console.log(s)
@@ -80,7 +80,7 @@ module.exports = {add};
 const {add} = require("add.js");
 ```
 
-#### ECMASscript Modules
+#### ECMAScript Modules
 
 ```js
 export const subtract = (a, b) => {return a - b};
@@ -97,6 +97,23 @@ import {subtract} from "subtract.js"
 if you use the **.mjs** extension instead of the **.js** extension, which is
 reserved for CommonJS modules.
 
-### Closures and Immediatly Invoked Function Expressions
+### Closures and Immediately Invoked Function Expressions
 
+A *closure* is the combination of a function plus its encompassing scope to
+which the function has access.
 
+```js
+function makeCounter() {
+  let count = 0; // `count` is a local variable created by makeCounter
+
+  return function() {
+    count += 1; // This inner function has access to `count`
+    return count;
+  };
+}
+
+const counter = makeCounter();
+console.log(counter()); // 1
+console.log(counter()); // 2
+console.log(counter()); // 3
+```
