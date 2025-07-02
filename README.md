@@ -16,3 +16,7 @@ Programming Challenges" by Federico Kereki.
 
 - [Using JavaScript](./notes/part1/using_javascript.md)
 - [Functional Programming](./notes/part1/functional_programming.md)
+
+### Part 2
+
+- [Designing Algorithms](./notes/part2/sorting.md)

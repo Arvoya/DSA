@@ -56,3 +56,5 @@ used in procedural, "common" programming.
 
 > Functions that receive other functions as arguments are that return functions
 as results are called *higher-order functions*.
+
+
